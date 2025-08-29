@@ -29,8 +29,6 @@ export default function AddUser()
         <input value={age} onChange={(e)=>setAge(e.target.value)}/>
         <input value={email} onChange={(e)=>setEmail(e.target.value)}/>
         <button onClick={addUser}>Add User</button>
-        <button onClick={updateUser}>Add User</button>
-
         <div>{error}</div>
         </>
     )
